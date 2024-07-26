@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+  
+ html {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+body {
+  background: linear-gradient(to right, #6a54b0 , #311981);
+  width: 60%;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 100;
+  overflow: hidden;
+ }
+
+ .main {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+ }
+
+ .cards {
+  width: 25%;
+  background-color: #DED3FE;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  position: relative;
+ }
+
+ .cards > h5 {
+  position: absolute;
+  top: 5%;
+  color: rgb(76, 74, 74);
+  right: 3%;
+ }
+
+ .cards > img {
+  width: 150px;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 50px;
+ }
+
+ .cards div {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+ }
+
+ .cards div span {
+  width: 8px;
+  height: 5px;
+  background-color: #69686a;
+  border-radius: 5px;
+ }
+
+ .card1 div span:nth-child(1){
+  width: 25px;
+  background-color: green;
+ }
+
+ .card2 div span:nth-child(2){
+  background-color: green;
+  width: 25px;
+ }
+
+ .card3 div span:nth-child(3){
+  background-color: green;
+  width: 25px;
+ }
+
+ .card1 {
+  margin-top: 70px;
+ }
+
+ .card2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+ }
+
+ .card2 > img {
+  margin-bottom: 20px;
+ }
+
+ .card3 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+ }
+
+ h2 {
+  color: #2C2B7D;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-bottom: 10px;
+ }
+
+ p {
+  font-family: cursive;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(133, 129, 129);
+ }
+
+ .top-bubble {
+  height: 250px;
+  background-color: #350cba;
+  border-radius: 50%;
+  width: 250px;
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  z-index: -1;
+ }
+
+ .bottom-bubble {
+  height: 200px;
+  background-color: #8368df;
+  border-radius: 50%;
+  width: 200px;
+  position: absolute;
+  bottom: -100px;
+  right: -100px;
+  z-index: -1;
+ }
